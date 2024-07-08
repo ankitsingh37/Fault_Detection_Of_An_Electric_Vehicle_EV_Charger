@@ -3,8 +3,6 @@ function [predFault_a,predFault_b,predFault_c] = ee_EVchargerFaultAnalysis_codeg
 % This function takes sample time series data to predict or identify fault
 % in gate drivers for igbts.
 
-% Copyright 2022 The MathWorks, Inc.
-
     grda = rms(data(:,2));
     grdb = rms(data(:,3));
     grdc = rms(data(:,4));

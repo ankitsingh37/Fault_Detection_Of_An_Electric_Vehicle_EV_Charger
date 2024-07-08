@@ -1,6 +1,5 @@
 %% Run validate/verify stage for the model
 
-% Copyright 2022 The MathWorks, Inc.
 
 gridVoltOptions = 415; % V, Line-Line rms voltage
 % New data set for Load

@@ -1,7 +1,5 @@
 %% Parameters for the SLX model ee_EVchargerFaultAnalysis
 
-% Copyright 2022 The MathWorks, Inc.
-
 gridFrequency = 50; % Hz 
 
 % Rectifier rating

@@ -3,8 +3,6 @@ function trainingData = ee_EVchargerFaultAnalysis_run(gridVoltageOptions,loadRes
     % Find the fault combinations that need to be run. Store the
     % fault-combination data in 'allPossibleCases'. Exclude cases where 
     % phases a, b, and c, are all faulted.
-    
-    % Copyright 2022 The MathWorks, Inc.
 
     allPossibleCases = dec2bin(0:2^6-1)-'0'; % 6 diodes in 6 columns (data)
     [dimX, ~] = size(allPossibleCases);
